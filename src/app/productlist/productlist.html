@@ -1,0 +1,19 @@
+<div>
+    <h2>
+        {{title}}
+    </h2>
+    <table *ngIf="productList.length">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr *ngFor='let product of productList'>
+                <td>{{product.Id}}</td>
+                <td>{{product.Name}}</td>
+                <td>{{product.price|currency:'USD':'symbol':'1.2-2'}}</td>
+            </tr>
+        </thead>
+    </table>
+</div>
