@@ -17,7 +17,12 @@ export class productListComponent{
           {
              'Name':'FW_Protector',
              'Id':'345',
-             'price':'458'    
-          }
+             'price':'458.78'    
+          },
+          {
+            'Name':'RW_Prot',
+            'Id':'456',
+            'price':'12.34'    
+         }
     ]
 }
